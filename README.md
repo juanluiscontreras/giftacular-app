@@ -8,23 +8,26 @@ To get started with the Giftacular app, follow these steps:
 
 1. **Clone the repository**:
 
-git clone https://github.com/juanluiscontreras/giftacular-app.git
+    ```git clone https://github.com/juanluiscontreras/giftacular-app.git```
 
 2. **Navigate to the project directory**:
 
-cd giftacular
+    ```cd giftacular```
 
 3. **Start Docker containers**:
 
-docker-compose up -d
+    ```docker-compose up -d```
 
 4. **Run migrations**:
 
-docker-compose exec app php artisan migrate
-
+    ```docker-compose exec app php artisan migrate```
 
 5. **Import Postman Collection and Environment**:
 - Import the Postman collection file `giftacular.postman_collection.json` and the environment file `giftacular.postman_environment.json` located in the `Postman` folder into your Postman application.
+
+6. **Login in Postman**:
+- Use the provided example data to login in Postman first. Once logged in, the token will be automatically set for subsequent requests.
+
 
 ## Diagrams
 
